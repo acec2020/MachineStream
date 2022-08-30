@@ -10,7 +10,7 @@
         {
             _logger = logger;
             _machineService = machineService;
-            _client = new WebsocketClient(new Uri("ws://machinestream.herokuapp.com/ws"));
+            _client = new WebsocketClient(new Uri(""));
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
